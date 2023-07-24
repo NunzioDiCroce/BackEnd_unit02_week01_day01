@@ -11,6 +11,6 @@ import lombok.ToString;
 @ToString
 
 public class Product {
-	private double price;
+	protected double price;
 
 }

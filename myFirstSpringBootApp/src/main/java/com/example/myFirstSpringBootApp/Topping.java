@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 
 public class Topping extends Product {
-	private String name;
-	private String calories;
+	protected String name;
+	protected String calories;
 
 }
