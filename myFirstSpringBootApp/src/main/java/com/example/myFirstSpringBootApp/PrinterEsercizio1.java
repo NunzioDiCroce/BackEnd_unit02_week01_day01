@@ -12,8 +12,10 @@ import lombok.ToString;
 
 public class PrinterEsercizio1 implements IEsercizio1 {
 
-	public void print() {
-		System.out.println("Ciao mondo");
+	private String sentence = "Ciao mondo";
+
+	public String print() {
+		return sentence;
 	}
 
 }
