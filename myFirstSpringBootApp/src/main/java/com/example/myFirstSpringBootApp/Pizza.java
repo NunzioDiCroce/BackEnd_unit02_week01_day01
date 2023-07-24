@@ -18,6 +18,7 @@ public class Pizza {
 	protected String fourthTopping;
 	protected String calories;
 	protected double price;
+	protected PizzaSize pizzaSize;
 
 	public Pizza(String _name, String _firstTopping, String _secondTopping) {
 		super();
