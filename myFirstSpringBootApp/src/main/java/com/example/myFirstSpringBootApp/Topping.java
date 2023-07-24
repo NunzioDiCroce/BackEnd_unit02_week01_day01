@@ -12,6 +12,6 @@ import lombok.ToString;
 
 public class Topping {
 	protected String name;
-	protected String calories;
+	protected double calories;
 	protected double price;
 }

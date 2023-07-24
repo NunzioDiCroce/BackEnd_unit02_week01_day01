@@ -16,11 +16,11 @@ public class Pizza {
 	protected String secondTopping;
 	protected String thirdTopping;
 	protected String fourthTopping;
-	protected String calories;
+	protected double calories;
 	protected double price;
 	protected PizzaSize pizzaSize;
 
-	public Pizza(String _name, String _firstTopping, String _secondTopping, String _calories, double _price,
+	public Pizza(String _name, String _firstTopping, String _secondTopping, double _calories, double _price,
 			PizzaSize _pizzaSize) {
 		this.name = _name;
 		this.firstTopping = _firstTopping;
@@ -30,7 +30,7 @@ public class Pizza {
 		this.pizzaSize = _pizzaSize;
 	}
 
-	public Pizza(String _name, String _firstTopping, String _secondTopping, String _thirdTopping, String _calories,
+	public Pizza(String _name, String _firstTopping, String _secondTopping, String _thirdTopping, double _calories,
 			double _price, PizzaSize _pizzaSize) {
 		this.name = _name;
 		this.firstTopping = _firstTopping;
@@ -41,7 +41,7 @@ public class Pizza {
 	}
 
 	public Pizza(String _name, String _firstTopping, String _secondTopping, String _thirdTopping, String _fourthTopping,
-			String _calories, double _price, PizzaSize _pizzaSize) {
+			double _calories, double _price, PizzaSize _pizzaSize) {
 		this.name = _name;
 		this.firstTopping = _firstTopping;
 		this.secondTopping = _secondTopping;

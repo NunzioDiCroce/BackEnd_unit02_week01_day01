@@ -13,6 +13,6 @@ import lombok.ToString;
 public class Drink {
 	protected String name;
 	protected String size;
-	protected String calories;
+	protected double calories;
 	protected double price;
 }

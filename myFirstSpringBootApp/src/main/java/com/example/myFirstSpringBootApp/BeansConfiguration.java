@@ -14,4 +14,8 @@ public class BeansConfiguration {
 		System.out.println();
 	}
 
+	@Bean(name = "Margherita")
+	Pizza getMargherita() {
+		return new Pizza("Margherita Pizza", "tomato", "cheese", 1104, 4.99, PizzaSize.STANDARD);
+	}
 }
