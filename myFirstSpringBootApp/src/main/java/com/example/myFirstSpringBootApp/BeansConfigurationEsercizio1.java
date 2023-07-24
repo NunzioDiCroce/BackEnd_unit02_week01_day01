@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Configuration;
 public class BeansConfigurationEsercizio1 {
 
 	@Bean
-	PrinterEsercizio1
-	
+	void print() {
+		System.out.println("Ciao mondo");
+	}
+
 }

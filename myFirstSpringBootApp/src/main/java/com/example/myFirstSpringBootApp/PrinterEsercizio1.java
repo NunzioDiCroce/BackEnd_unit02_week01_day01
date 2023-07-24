@@ -10,12 +10,17 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class PrinterEsercizio1 implements IEsercizio1 {
+public class PrinterEsercizio1 {
 
-	private String sentence = "Ciao mondo";
+	private String sentence;
 
-	public String print() {
-		return sentence;
+	public PrinterEsercizio1(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void print() {
+		System.out.println(sentence);
+
 	}
 
 }
