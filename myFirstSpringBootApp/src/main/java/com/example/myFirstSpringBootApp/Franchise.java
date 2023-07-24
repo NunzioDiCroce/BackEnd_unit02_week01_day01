@@ -10,7 +10,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Franchise extends Product {
+public class Franchise {
 	protected String name;
-
+	protected double price;
 }
