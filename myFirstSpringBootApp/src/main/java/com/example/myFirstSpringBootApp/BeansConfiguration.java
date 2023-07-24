@@ -74,4 +74,14 @@ public class BeansConfiguration {
 	Drink getWine() {
 		return new Drink("Wine", "(0.75l, 13%)", 607, 7.49);
 	}
+
+	@Bean(name = "Shirt")
+	Franchise getShirt() {
+		return new Franchise("Shirt", 21.99);
+	}
+
+	@Bean(name = "Mug")
+	Franchise getMug() {
+		return new Franchise("Mug", 4.99);
+	}
 }
