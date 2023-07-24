@@ -59,4 +59,19 @@ public class BeansConfiguration {
 	Topping getSalami() {
 		return new Topping("Salami", 86, 0.99);
 	}
+
+	@Bean(name = "Lemonade")
+	Drink getLemonade() {
+		return new Drink("Lemonade", "(0.33l)", 128, 1.29);
+	}
+
+	@Bean(name = "Water")
+	Drink getWater() {
+		return new Drink("Water", "(0.5l)", 0, 1.29);
+	}
+
+	@Bean(name = "Wine")
+	Drink getWine() {
+		return new Drink("Wine", "(0.75l, 13%)", 607, 7.49);
+	}
 }
