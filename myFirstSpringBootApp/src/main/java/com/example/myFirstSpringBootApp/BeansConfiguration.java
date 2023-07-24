@@ -14,4 +14,10 @@ public class BeansConfiguration {
 		System.out.println();
 	}
 
+	@Bean(name = "getMargheritaPizza")
+	Pizza getPizza() {
+		return new Pizza("Margherita", "tomato", "cheese");
+
+	}
+
 }
