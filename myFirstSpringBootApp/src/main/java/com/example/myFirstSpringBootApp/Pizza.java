@@ -10,13 +10,14 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Pizza extends Product {
+public class Pizza {
 	protected String name;
 	protected String firstTopping;
 	protected String secondTopping;
 	protected String thirdTopping;
 	protected String fourthTopping;
 	protected String calories;
+	protected double price;
 
 	public Pizza(String _name, String _firstTopping, String _secondTopping) {
 		super();
