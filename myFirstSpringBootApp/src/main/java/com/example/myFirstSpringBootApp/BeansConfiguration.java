@@ -34,4 +34,9 @@ public class BeansConfiguration {
 		return new Pizza("Custom Pizza", "tomato", "cheese", "salami", "onion", 1104 + 86 + 22, 4.99 + 0.99 + 0.69,
 				PizzaSize.LARGE);
 	}
+
+	@Bean(name="Cheese")
+	Topping getCheese() {
+		return new Topping("Cheese", 92.0, 0.69)
+	}
 }
