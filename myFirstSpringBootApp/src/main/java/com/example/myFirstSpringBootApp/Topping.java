@@ -10,8 +10,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Topping extends Product {
+public class Topping {
 	protected String name;
 	protected String calories;
-
+	protected double price;
 }
