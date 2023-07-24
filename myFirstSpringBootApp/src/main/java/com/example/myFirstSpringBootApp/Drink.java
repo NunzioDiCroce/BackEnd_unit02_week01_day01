@@ -15,4 +15,10 @@ public class Drink {
 	protected String size;
 	protected double calories;
 	protected double price;
+
+	public Drink(String _name, String _size, double _calories, double _price) {
+		this.name = _name;
+		this.calories = _calories;
+		this.price = _price;
+	}
 }
