@@ -18,4 +18,20 @@ public class BeansConfiguration {
 	Pizza getMargherita() {
 		return new Pizza("Margherita Pizza", "tomato", "cheese", 1104, 4.99, PizzaSize.STANDARD);
 	}
+
+	@Bean(name = "Hawaiian")
+	Pizza getHawaiian() {
+		return new Pizza("Hawaiian Pizza", "tomato", "cheese", "ham", "pineapple", 1024, 6.49, PizzaSize.STANDARD);
+	}
+
+	@Bean(name = "Salami")
+	Pizza getSalami() {
+		return new Pizza("Salami Pizza", "tomato", "cheese", "salami", 1160, 5.99, PizzaSize.STANDARD);
+	}
+
+	@Bean(name = "Custom")
+	Pizza getCustom() {
+		return new Pizza("Custom Pizza", "tomato", "cheese", "salami", "onion", 1104 + 86 + 22, 4.99 + 0.99 + 0.69,
+				PizzaSize.LARGE);
+	}
 }
