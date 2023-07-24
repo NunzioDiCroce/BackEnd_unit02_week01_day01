@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 public class BeansConfigurationEsercizio1 {
 
-	@Bean
+	@Bean(name = "printEsercizio1")
 	void print() {
 		System.out.println("Ciao mondo");
 	}

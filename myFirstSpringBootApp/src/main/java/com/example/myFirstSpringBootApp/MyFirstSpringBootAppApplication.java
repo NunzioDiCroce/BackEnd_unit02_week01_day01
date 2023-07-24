@@ -16,6 +16,10 @@ public class MyFirstSpringBootAppApplication {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
 				MyFirstSpringBootAppApplication.class);
 
+		ctx.getBean("printEsercizio1");
+
+		ctx.close();
+
 	}
 
 }
