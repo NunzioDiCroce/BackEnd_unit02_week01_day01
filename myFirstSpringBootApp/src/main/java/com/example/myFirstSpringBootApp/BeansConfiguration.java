@@ -14,17 +14,17 @@ public class BeansConfiguration {
 		System.out.println();
 	}
 
-	@Bean(name = "Margherita")
+	@Bean(name = "MargheritaPizza")
 	Pizza getMargheritaPizza() {
 		return new Pizza("Margherita Pizza", "tomato", "cheese", 1104, 4.99, PizzaSize.STANDARD);
 	}
 
-	@Bean(name = "Hawaiian")
+	@Bean(name = "HawaiianPizza")
 	Pizza getHawaiianPizza() {
 		return new Pizza("Hawaiian Pizza", "tomato", "cheese", "ham", "pineapple", 1024, 6.49, PizzaSize.STANDARD);
 	}
 
-	@Bean(name = "Salami")
+	@Bean(name = "SalamiPizza")
 	Pizza getSalamiPiazza() {
 		return new Pizza("Salami Pizza", "tomato", "cheese", "salami", 1160, 5.99, PizzaSize.STANDARD);
 	}

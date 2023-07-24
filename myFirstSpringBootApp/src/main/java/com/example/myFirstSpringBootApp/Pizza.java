@@ -50,4 +50,10 @@ public class Pizza {
 		this.pizzaSize = _pizzaSize;
 	}
 
+	@Override
+	public String toString() {
+		return name + ", " + firstTopping + ", " + secondTopping + ", " + thirdTopping + ", " + fourthTopping + ", "
+				+ calories + ", " + price + ", " + pizzaSize;
+	}
+
 }

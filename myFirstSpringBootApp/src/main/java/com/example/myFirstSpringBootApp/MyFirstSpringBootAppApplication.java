@@ -9,6 +9,9 @@ public class MyFirstSpringBootAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyFirstSpringBootAppApplication.class, args);
+
+		configWithAnnotationConfing();
+
 	}
 
 	public static void configWithAnnotationConfing() {
@@ -16,7 +19,11 @@ public class MyFirstSpringBootAppApplication {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(
 				MyFirstSpringBootAppApplication.class);
 
+		// - - - - - - - - - - - - - - - ESERCIZIO 1
 		ctx.getBean("printEsercizio1");
+
+		// - - - - - - - - - - - - - - - ESERCIZIO 2
+		System.out.println((String) ctx.getBean("MargheritaPizza").toString());
 
 		ctx.close();
 
