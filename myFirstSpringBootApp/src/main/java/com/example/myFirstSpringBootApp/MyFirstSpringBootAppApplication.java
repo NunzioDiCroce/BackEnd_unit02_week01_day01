@@ -23,7 +23,11 @@ public class MyFirstSpringBootAppApplication {
 		ctx.getBean("printEsercizio1");
 
 		// - - - - - - - - - - - - - - - ESERCIZIO 2
-		System.out.println((String) ctx.getBean("MargheritaPizza").toString());
+		System.out.println(ctx.getBean("MargheritaPizza"));
+		System.out.println(ctx.getBean("HawaiianPizza"));
+		System.out.println(ctx.getBean("SalamiPizza"));
+		System.out.println(ctx.getBean("CustomPizza"));
+		System.out.println(ctx.getBean("Cheese"));
 
 		ctx.close();
 

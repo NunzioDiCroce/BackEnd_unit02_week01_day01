@@ -29,7 +29,7 @@ public class BeansConfiguration {
 		return new Pizza("Salami Pizza", "tomato", "cheese", "salami", 1160, 5.99, PizzaSize.STANDARD);
 	}
 
-	@Bean(name = "Custom")
+	@Bean(name = "CustomPizza")
 	Pizza getCustomPizza() {
 		return new Pizza("Custom Pizza", "tomato", "cheese", "salami", "onion", 1104 + 86 + 22, 4.99 + 0.99 + 0.69,
 				PizzaSize.LARGE);
