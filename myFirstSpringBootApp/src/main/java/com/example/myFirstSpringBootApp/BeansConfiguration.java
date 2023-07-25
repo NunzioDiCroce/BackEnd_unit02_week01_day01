@@ -7,11 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 public class BeansConfiguration {
 
-	@Bean(name = "printEsercizio1")
-	void print() {
-		System.out.println();
-		System.out.println("Ciao mondo");
-		System.out.println();
+	@Bean(name = "Esercizio1")
+	Esercizio1 printSentence() {
+		return new Esercizio1("Ciao mondo");
 	}
 
 	@Bean(name = "MargheritaPizza")
