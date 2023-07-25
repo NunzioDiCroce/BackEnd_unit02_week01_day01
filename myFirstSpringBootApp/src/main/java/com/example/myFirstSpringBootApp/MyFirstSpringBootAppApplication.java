@@ -20,9 +20,12 @@ public class MyFirstSpringBootAppApplication {
 				MyFirstSpringBootAppApplication.class);
 
 		// - - - - - - - - - - - - - - - ESERCIZIO 1
-		ctx.getBean("printEsercizio1");
+		System.out.println();
+		System.out.println("- - - - - - - - - - - - - - - ESERCIZIO 1");
+		System.out.println(ctx.getBean("Esercizio1"));
 
 		// - - - - - - - - - - - - - - - ESERCIZIO 2
+		System.out.println();
 		System.out.println("- - - - - - - - - - - - - - - ESERCIZIO 2");
 		System.out.println("* * * Pizzas * * *");
 		System.out.println(ctx.getBean("MargheritaPizza"));
