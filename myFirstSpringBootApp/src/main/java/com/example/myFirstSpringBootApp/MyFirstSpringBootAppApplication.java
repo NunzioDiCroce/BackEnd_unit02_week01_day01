@@ -32,6 +32,11 @@ public class MyFirstSpringBootAppApplication {
 		System.out.println(ctx.getBean("Onions"));
 		System.out.println(ctx.getBean("Pineapple"));
 		System.out.println(ctx.getBean("Salami"));
+		System.out.println(ctx.getBean("Lemonade"));
+		System.out.println(ctx.getBean("Water"));
+		System.out.println(ctx.getBean("Wine"));
+		System.out.println(ctx.getBean("Shirt"));
+		System.out.println(ctx.getBean("Mug"));
 
 		ctx.close();
 

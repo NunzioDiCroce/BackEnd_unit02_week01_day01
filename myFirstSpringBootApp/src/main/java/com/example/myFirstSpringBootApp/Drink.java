@@ -18,6 +18,7 @@ public class Drink {
 
 	public Drink(String _name, String _size, double _calories, double _price) {
 		this.name = _name;
+		this.size = _size;
 		this.calories = _calories;
 		this.price = _price;
 	}
