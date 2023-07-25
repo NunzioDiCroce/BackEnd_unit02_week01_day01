@@ -10,7 +10,7 @@ public class MyFirstSpringBootAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MyFirstSpringBootAppApplication.class, args);
 
-		configWithAnnotationConfing();
+		// configWithAnnotationConfing();
 
 	}
 
