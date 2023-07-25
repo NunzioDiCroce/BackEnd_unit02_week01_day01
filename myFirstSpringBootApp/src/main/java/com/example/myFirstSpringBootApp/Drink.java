@@ -21,4 +21,9 @@ public class Drink {
 		this.calories = _calories;
 		this.price = _price;
 	}
+
+	@Override
+	public String toString() {
+		return name + ", " + size + ", " + calories + ", " + price;
+	}
 }
